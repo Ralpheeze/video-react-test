@@ -1,0 +1,43 @@
+.my-nav-bar {
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    z-index: 1;
+    /* color: white; */
+}
+
+.span-3lines {
+    color: white;
+    font-size: 20px;
+}
+
+.navTitle {
+    padding-left: 3rem;
+}
+
+.nav-l {
+    list-style-type: none;
+    margin-right: 2rem;
+    /* text-align: center; */
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.nav-href {
+    text-decoration: overline;
+    color: white;
+}
+
+.nav-href:hover {
+    color: rgb(229, 250, 4);
+    text-decoration: underline;
+}
+
+.tour-drop {
+    background: transparent;
+    background-repeat: no-repeat;
+    border: none;
+}
+
+.tour-drop:hover {
+    background-color: transparent;
+    border: none;
+}

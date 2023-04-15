@@ -1,0 +1,59 @@
+/* ....STart of sec1---- */
+#myVideo {
+    right: 0;
+    bottom: 0;
+    left: 0;
+    top: 0;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    min-width: 100%;
+    min-height: 100%;
+    object-fit: fill;
+}
+/* ....End of sec1---- */
+
+.left-col {
+    background-color: rgba(44, 192, 165, 0.3);
+    color: white;
+    margin: 2rem;
+    margin-top: 10rem;
+    padding: 2rem;
+    border-radius: 20px;
+}
+
+.contTitle {
+    color: white;
+    font-size: 2rem;
+    font-weight: 600;
+    font-style: italic;
+    transition: 0.5s;
+}
+
+.contBtn {
+    text-align: center;
+    padding-top: 2rem;
+    /* border-radius: 30px;
+        border-color: rgba(236, 241, 234, 0.3);
+        cursor: pointer; */
+    /* padding: 10px 20px; */
+}
+
+.main-Btn {
+    width: 12rem;
+    border-radius: 30px;
+    background-color: #5ae67f;
+    /* background: transparent; */
+    margin: auto;
+    padding: 10px 20px;
+    
+}
+
+.main-Btn:hover {
+    width: 12rem;
+    border-radius: 30px;
+        border-color: rgba(236, 241, 234, 0.3);
+    background-color: transparent;
+    cursor: pointer;
+}
+
