@@ -13,12 +13,14 @@
     padding-left: 3rem;
 }
 
+.collapseBar {
+    /* text-align: center; */
+    
+}
+
 .nav-l {
     list-style-type: none;
     margin-right: 2rem;
-    /* text-align: center; */
-    justify-content: center;
-    /* align-items: center; */
 }
 
 .nav-href {

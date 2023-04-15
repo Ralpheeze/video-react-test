@@ -13,7 +13,7 @@ export default function Navbar() {
                 {/* <span class="navbar-toggler-icon text-info"></span> */}
             </button>
             
-            <div class="collapse navbar-collapse justify-content-end text-center" id="navbarNav">
+            <div class="collapse navbar-collapse justify-content-end text-center collapseBar" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item nav-l">
                         <a class="nav-link nav-href" href="#">Home</a>
