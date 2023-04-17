@@ -27,10 +27,13 @@ export default function Home() {
 
                         <div className="contContent">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit nemo, alias laborum molestiae iusto ducimus delectus voluptas asperiores amet dolor. Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam at fugit id illo eveniet ipsum, eius quidem vero corporis modi?</div>
 
-                        <div className="contBtn ">
+                        <div className="contBtn">
+                            <button className="firstBtn" type='submit'>SEE ROOMS & RATES</button>         
+                        </div>
+                        {/* <div className="contBtn ">
                             <div className="main-Btn">SEE ROOMS & RATES
                             </div>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
             </div>

@@ -38,17 +38,23 @@
 .contBtn {
     text-align: center;
     padding-top: 2rem;
-    /* border-radius: 30px;
-        border-color: rgba(236, 241, 234, 0.3);
-        cursor: pointer; */
-    /* padding: 10px 20px; */
 }
 
-.main-Btn {
+.firstBtn {
+    color: white;
+    background: transparent;
+    border-radius: 30px;
+    padding: 10px 20px;
+}
+
+.firstBtn:hover {
+    border: none;
+}
+
+/* .main-Btn {
     width: 12rem;
     border-radius: 30px;
     background-color: #5ae67f;
-    /* background: transparent; */
     margin: auto;
     padding: 10px 20px;
     
@@ -60,5 +66,5 @@
         border-color: rgba(236, 241, 234, 0.3);
     background-color: transparent;
     cursor: pointer;
-}
+} */
 
