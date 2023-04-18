@@ -22,7 +22,7 @@ export default function Home() {
         <div className="container-fluid">
             <div className="row">
                 <div className="col-md-6">
-                    <div className="left-col">
+                    <div className="cont-left-col">
                         <div className="contTitle">Welcome to Umbrella Academy</div>
 
                         <div className="contContent">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit nemo, alias laborum molestiae iusto ducimus delectus voluptas asperiores amet dolor. Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam at fugit id illo eveniet ipsum, eius quidem vero corporis modi?</div>
@@ -38,6 +38,9 @@ export default function Home() {
                 </div>
             </div>
         </div>
+
+
+        
     </div>
   )
 }
