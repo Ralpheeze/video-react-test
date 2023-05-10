@@ -1,0 +1,50 @@
+.my-sec-bar {
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    /* position: fixed;
+    overflow: hidden; */
+    background-color: rgb(243, 238, 238);
+}
+
+.secTitle {
+    margin: 0;
+    margin-left: 1rem;
+    color: black;
+}
+
+.sec-l {
+    margin-right: 2rem;
+    list-style-type: none;
+    color: black;
+}
+
+.sec-tour-drop {
+    background: transparent;
+    background-repeat: no-repeat; 
+    border: none;
+}
+
+.sec-tour-drop:hover {
+    background-color: transparent;
+    border: none;
+}
+
+.sec-tour-drop::before {
+    display: none;
+}
+
+.sec-tour-drop::after {
+    display: none;
+}
+
+.sec-href {
+    color: black;
+    text-decoration: overline;
+}
+
+.sec-href:hover {
+    color: rgb(29, 5, 168);
+    text-decoration: underline;
+}
+
+
+

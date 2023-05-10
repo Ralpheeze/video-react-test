@@ -1,0 +1,63 @@
+/* ----Start of grid ----- */
+.gridGuard {
+    margin: 1rem;
+    margin-top: 9rem;
+    /* background-color:blue; */
+}
+
+.gridSupport {
+    background-color: rgba(44, 192, 165, 0.3);
+    padding: 3rem;
+
+}
+
+.grid-left-col {
+    /* background-color: red; */
+    display: flex;
+    /* padding: 0; */
+}
+
+.grid-left-item1 {
+    flex: 1;
+}
+
+.grid-left-item2 {
+    flex: 1;
+    margin-left: 1rem;
+}
+
+.grid-right-col {
+    /* background-color: orange; */
+    display: flex;
+}
+
+.grid-right-control {
+    display: flex;
+    margin: auto;
+}
+
+.grid-right-item1 {
+    flex: 1;
+}
+
+.grid-right-item2 {
+    flex: 1;
+    margin-left: 1rem;
+}
+
+.grid-right-input {
+    width: 4rem;
+}
+
+.gridBtn {
+    padding-top: 2rem;
+    margin-left: 1rem;
+}
+
+.secondBtn {
+    padding: 5px 10px;   
+    border-radius: 5px;
+}
+
+
+/* ----End of grid ----- */

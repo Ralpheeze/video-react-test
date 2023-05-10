@@ -1,10 +1,12 @@
+import Navbar from '../../components/navbar/Navbar'
 import './home.css'
 
 export default function Home() {
   return (
     <div>
+        <Navbar/>
         <div className='sec1'>
-            <video autoPlay loop muted plays-inline id="myVideo">
+            <video autoPlay loop muted plays-inline poster='AI-trance-picland.png' id="myVideo">
                 <source src="videos/AI-trance1land.mp4" type="video/mp4"/>
             </video>
 
@@ -20,8 +22,8 @@ export default function Home() {
         </div>
 
         <div className="container-fluid">
-            <div className="row">
-                <div className="col-md-6">
+            <div className="row cont">
+                <div className="col-md-6 columnControl">
                     <div className="cont-left-col">
                         <div className="contTitle">Welcome to Umbrella Academy</div>
 

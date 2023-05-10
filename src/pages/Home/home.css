@@ -4,7 +4,7 @@
     bottom: 0;
     left: 0;
     top: 0;
-    position: absolute;
+    position: fixed;
     width: 100%;
     height: 100%;
     min-width: 100%;
@@ -12,12 +12,21 @@
     object-fit: fill;
 }
 /* ....End of sec1---- */
+/* .cont {
+    padding: 0;
+    margin: 0;
+} */
+
+/* .columnControl {
+    padding: 0;
+    margin: 0;
+} */
 
 .cont-left-col {
     background-color: rgba(44, 192, 165, 0.3);
     color: white;
     margin: 2rem;
-    margin-top: 8rem;
+    margin-top: 8rem;   
     padding: 2rem;
     border-radius: 20px;
 }
@@ -69,58 +78,3 @@
 } */
 
 
-/* ----Start of grid ----- */
-.gridGuard {
-    margin: 1rem;
-    /* background-color:blue; */
-}
-
-.gridSupport {
-    background-color: rgba(44, 192, 165, 0.3);
-    padding: 3rem;
-    
-}
-
-.grid-left-col {
-    /* background-color: red; */
-    display: flex;
-    /* padding: 0; */
-}
-
-.grid-left-item1 {
-    flex: 1;
-}
-
-.grid-left-item2 {
-    flex: 1;
-    margin-left: 1rem;
-}
-
-.grid-right-col {
-    /* background-color: orange; */
-    display: flex;
-}
-
-.grid-right-item1 {
-    flex: 1;
-}
-
-.grid-right-item2 {
-    flex: 1;
-    margin-left: 1rem;
-}
-
-.grid-right-input {
-    width: 4rem;
-}
-
-.gridBtn {
-    padding-top: 2rem;
-}
-
-.secondBtn {
-    padding: 5px 10px;
-}
-
-
-/* ----End of grid ----- */

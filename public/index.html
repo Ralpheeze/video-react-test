@@ -9,16 +9,79 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
         integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Codes that must be pasted in the head below meta -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css"
+        integrity="sha512-UTNP5BXLIptsaj5WdKFrkFov94lDx+eBvbKyoe1YAfjeRPC+gT5kyZ10kOHCfNZqEui1sxmqvodNUx3KbuYI/A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+        integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"
+        integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+    
+       
+    <!--When installing owl carousel, use this jquery  --><script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.0/jquery.min.js"></script>
+    
+    <!-- End of Codes that must be pasted in the head below meta -->
+
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
     <meta
       name="description"
       content="Web site created using create-react-app"/>
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
-    </style>
+
+      
+
+    <!-- <script>
+        var cafeItem = document.getElementsByClassName('cafe-item');
+        var cafeHead = document.getElementsByClassName('cafe-heading');
+
+        for(i = 0; i < cafeHead.length; i++) {
+            cafeHead[i].addEventListener('click', toggleItem, false);
+        }
+
+        function toggleItem() {
+            var itemClass = this.parentNode.className;
+            for(var i = 0; i < cafeItem.length; i++) {
+                cafeItem[i].className = 'cafe-item cafe-close';
+            }
+
+            if(itemClass == 'cafe-item cafe-close') {
+                this.parentNode.className = 'cafe-item cafe-open';
+            }
+        }
+    </script> -->
+
     
-    <title>Video Tester</title>
+
+    <!-- <script>
+        const cafeHead = document.querySelector('.cafe-heading');
+
+        cafeHead.addEventListener('click', () => {
+            document.querySelector(".open-content").style.display = 'block'
+        })
+    </script> -->
+
+    <script>
+        const cafeHead = document.getElementsByClassName("cafe-heading");
+        const article = document.getElementsByClassName("cafe-item cafe-open");
+        cafeHead.addEventListener("click", () => {
+            article.classList.toggle("expanded");
+
+            const expanded = article.classList.contains("expanded");
+            if(expanded) {
+                cafeHead.innerHTML = "See less";
+            }
+            else {
+                cafehead.innerHTML = "See more";
+            }
+        });
+    </script>
+    
+    <title>Main Video</title>
   </head>
 
   <body>
@@ -26,7 +89,7 @@
     <div id="root"></div>
     
 
-
+    <!-- STart of Script for bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
         crossorigin="anonymous"></script>
@@ -36,5 +99,46 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js"
         integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+"
         crossorigin="anonymous"></script>
+
+    <!-- End of Script for bootstrap -->
+
+    <!-- Start of script for owl carousel -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+    </script>
+
+    
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js"
+        integrity="sha512-gY25nC63ddE0LcLPhxUJGFxa2GoIyA5FLym4UJqHDEMHjp8RET6Zn/SHo1sltt3WuVtqfyxECP38/daUc/WVEA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+    </script>
+
+    <script>
+        $(document).ready(function () {
+            $('.owl-carousel').owlCarousel({
+                loop: true,
+                margin: 10,
+                nav: true,
+                dots: false,
+                navText: ["<i class='fa fa-chevron-left'></i>", "<i class='fa fa-chevron-right'></i>"],
+                autoPlay: 1000,
+                responsive: {
+                    0: {
+                        items: 1
+                    },
+                    768: {
+                        items: 2
+                    },
+                    1000: {
+                        items: 4
+                    }
+                }
+            })
+        });
+    </script>
+    <!-- End of script for owl carousel -->
+
   </body>
 </html>

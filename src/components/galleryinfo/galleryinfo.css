@@ -1,0 +1,242 @@
+/* -----Start of GallleryGuard---- */
+.galleryGuard {
+    margin-top: 11%;
+}
+
+.gall-image {
+    /* position: relative; */
+    text-align: center; 
+}
+
+/* NOTE: text-align property works on block-level elements and 
+not inline elements,*/
+
+.gall-img1 {
+    width: 310px;
+    height: 450px;
+    margin-top: 60px;
+    margin-bottom: 50px;
+}
+
+.gall-img2 {
+    width: 270px;
+    height: 220px;
+    position: absolute;
+    bottom: 0;
+    z-index: 2;
+    top: 52%;
+    right: 40%;
+}
+
+.gall-heading {
+    position: relative;
+    text-align: left;
+    background-color: blue;
+    padding-bottom: 60px;
+}
+
+.gall-heading::after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: '';
+    width: 100px;
+    height: 4px;
+    background: yellow;
+}
+
+.gall-heading h5 {
+    padding-top: 1rem;
+    font-size: 18px;
+    font-weight: 400;
+    color: gray;
+}
+
+.gall-heading h2 {
+    font-size: 35px;
+    font-weight: 500;
+}
+
+.gall-text {
+    margin: 20px 20px 0 20px;
+    padding: 1rem;
+    padding-right: 1rem;
+    line-height: 26px;
+}
+
+.gall-btn {
+    text-align: center;
+    
+}
+
+.third-btn {
+    color: white;
+    background-color: rgb(201, 124, 60);
+    border-radius: 30px;
+    padding: 5px 20px;
+}
+
+.third-btn:hover {
+    cursor: pointer;
+}
+/* -----End of GallleryGuard---- */
+
+
+/* ----Start of Amenity ---- */
+.amenity {
+    /* background-image: url("images/hotelpool1land.jpg"); */
+    position: relative;
+    margin: 0;
+    margin-top: 11rem;
+}
+
+.a-image {
+    width: 100%;
+    height: 410px;
+    object-fit: cover;
+    /* object-position: center; */
+}
+
+.amenity h2 {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.amenity p {
+    padding-bottom: 6%;
+}
+
+.amenity-info {
+    background: rgb(88, 200, 245);
+    position: absolute;
+    top: -19%;
+    left: 5%;
+    padding: 30px;
+    padding-top: 7%;
+    /* padding-bottom: 20%; */
+    width: 40%;
+    height: 570px;
+    color: white;
+}
+
+.book {
+    margin: 0;
+}
+
+.amenity-content {
+    padding: 0;
+    bottom: -6%;
+    /* margin: 0;
+    margin-left: -5%;
+    padding: 0;
+    padding-top: 20px; */
+    /* display: grid;
+    grid-template-columns: repeat(1fr); */
+    max-width: 600px;
+    margin: 0 auto;
+    display: grid;
+    gap: 3px;
+
+}
+
+/* @media (min-width: 100px) {
+    .amenity-content {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (min-width: 900px) {
+    .amenity-content {
+        grid-template-columns: repeat(2, 1fr);
+    }
+} */
+
+.icon-control {
+    margin-right: 0.3rem;
+}
+
+/* ----End of Amenity ---- */
+
+
+/* ----Start of Cafe Guard---- */
+.cafeGuard {
+    display: flex;
+    padding: 0;
+    padding-top: 13rem;
+    /* background-color: orange; */
+}
+
+.cafe-img {
+    width:115%;
+    height: 600px;
+}
+
+.cafe-head {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.cafe-text {
+    /* background-color: red; */
+    padding: 40px 10px 30px 80px;
+}
+
+.cafe-heading {
+    font-size: 30px;
+    font-weight: 600;
+    color: rgb(247, 196, 129);
+}
+
+.cafe-info {
+    line-height: 25px;
+}
+
+.read-or-hide {
+    color: rgb(184, 169, 5);
+}
+
+.cafe-content {
+    box-sizing: border-box;
+    box-shadow: 0 13px 43px 0 rgb(37 46 89/ 10%);
+}
+/* .cafe-open.expanded {
+    transform: translateX(0);
+}
+
+.cafe-close .cafe-content {
+    transition: height 1s ease-out;
+    transition: scaleY(0);
+    float: left;
+    display: block;
+}
+
+.cafe-open .cafe-content {
+    font-family: sans-serif;
+    opacity: 0.8;
+    width: 100%;
+    display: block;
+    transform: scaleY(1);
+    transform-origin: top;
+    transition: transform 0.4s ease;
+    box-sizing: border-box;
+    box-shadow: 0 13px 43px 0 rgb(37 46 89/ 10%);
+}
+
+.cafe-item {
+    margin-top: 30px;
+} */
+
+/* ----End of Cafe Guard---- */
+
+
+
+
+/* ---Start of map--- */
+.map-control {
+    margin: 0;
+    margin-top: 10rem;
+}
+.map-control iframe {
+    width: 100%;
+}
+/* ---End of map--- */

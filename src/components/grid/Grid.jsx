@@ -20,18 +20,23 @@ export default function Grid() {
                             </div>
                         </div>
 
-                        <div className="col-md-4 grid-right-col">
-                            <div className="grid-right-item1">
-                                <label for="exampleInputEmail1">Adults</label>
-                                <input type="number" class="form-control grid-right-input" placeholder='0' id="exampleInputEmail1" aria-describedby="Help"></input>
-                            </div> 
-                            <div className="grid-right-item2">
-                                <label for="exampleInputEmail1">Children</label>
-                                <input type="number" class="form-control grid-right-input" placeholder='0' id="exampleInputEmail1" aria-describedby="Help"></input>
+                        <div className="col-md-4">
+                            <div className="grid-right-col">
+                                <div className="grid-right-control">
+                                    <div className="grid-right-item1">
+                                        <label for="exampleInputEmail1">Adults</label>
+                                        <input type="number" class="form-control grid-right-input" placeholder='0' id="exampleInputEmail1" aria-describedby="Help"></input>
+                                    </div> 
+                                    <div className="grid-right-item2">
+                                        <label for="exampleInputEmail1">Children</label>
+                                        <input type="number" class="form-control grid-right-input" placeholder='0' id="exampleInputEmail1" aria-describedby="Help"></input>
+                                    </div>
+                                    <div className="gridBtn">
+                                        <button className="secondBtn" type='submit'>Submit</button>         
+                                    </div>
+                                </div>
                             </div>
-                            <div className="gridBtn">
-                                <button className="secondBtn" type='submit'>Submit</button>         
-                            </div>
+                            
                         </div>
                     </div>
                 </div>

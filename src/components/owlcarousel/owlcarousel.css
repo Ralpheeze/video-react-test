@@ -1,0 +1,86 @@
+/* ----Start of slide--- */
+.slide-text {
+    position: relative;
+    margin-top: 5rem;
+}
+
+.slide-text::after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: '';
+    width: 100px;
+    height: 4px;
+    background: yellow;
+}
+
+.slide-text h5 {
+    padding-top: 1rem;
+    font-size: 18px;
+    font-weight: 400;
+    color: gray;
+}
+
+.slide-text h2 {
+    font-size: 35px;
+    font-weight: 5 00;
+}
+
+.slide-img {
+    width: 270px;
+    height: 350px;
+}
+
+.slide-button {
+    position: absolute;
+    background-color: green;
+    margin: 0;
+    margin-right: 10px;
+    top: -20%;
+
+
+}
+
+.slide-btn {
+    color: white;
+    background-color: rgb(184, 169, 5);
+    cursor: pointer;
+    border-radius: 20px;
+    padding: 10px 20px;
+    width: 100%;
+    text-align: right;
+    justify-content: end;
+    align-items: end;
+}
+
+.slide-control {
+    padding: 0;
+    padding-top: 2rem;
+}
+
+.owl-carousel .owl-next,
+.owl-carousel .owl-prev {
+
+    height: 50px;
+    position: absolute;
+    width: 50px;
+    cursor: pointer;
+    top: 35%;
+    background: white !important;
+    transition: 0.5s;
+}
+
+.owl-carousel .owl-prev {
+    left: 33px;
+}
+
+.owl-carousel .owl-next {
+    right: 33px;
+}
+
+.owl-carousel .owl-next:hover,
+.owl-carousel .owl-prev:hover {
+    background: #C1B086 !important;
+}
+
+/* ----End of slide--- */
