@@ -4,11 +4,14 @@ import './secnavbar.css';
 export default function Secnavbar() {
   return (
     <div>
-        <nav class="navbar navbar-expand-lg my-sec-bar "> 
+        <nav class="navbar navbar-expand-lg my-sec-bar fixed-top "> 
             <a class="navbar-brand secTitle" href="#"><i class="fa fa-umbrella fa-flip nav-icon"></i>Umbrella 
             <br /> Academy</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+                 <span class="navbar-toggler-icon span-tog">   
+                    <i class="fa fa-navicon"></i>
+                </span>
+                {/* <span class="navbar-toggler-icon bg-dark text-white span-tog"></span> */}
             </button>
             <div class="collapse navbar-collapse justify-content-end text-center" id="navbarNav">
                 <ul class="navbar-nav">

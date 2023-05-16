@@ -3,13 +3,13 @@ import './grid.css'
 export default function Grid() {
   return (
     <div>
-        <div className="container">
+        <div className="">
             <div className="row gridGuard">
                 <div className="col"></div>
 
                 <div className="col-md-10 gridSupport">
-                    <div className="row">
-                        <div className="col-md-8 grid-left-col">
+                    <div className="row bg-danger gridMain">
+                        <div className="col-md-8 order-md-1 grid-left-col">
                             <div className="grid-left-item1">
                                 <label for="exampleInputEmail1">Check-in</label>
                                 <input type="date" class="form-control " id="exampleInputEmail1" aria-describedby="Help"></input>
@@ -20,7 +20,7 @@ export default function Grid() {
                             </div>
                         </div>
 
-                        <div className="col-md-4">
+                        <div className="col-md-4 order-md-2 ">
                             <div className="grid-right-col">
                                 <div className="grid-right-control">
                                     <div className="grid-right-item1">

@@ -11,6 +11,10 @@
     min-height: 100%;
     object-fit: fill;
 }
+
+.image-img {
+    width: 100%;
+}
 /* ....End of sec1---- */
 /* .cont {
     padding: 0;

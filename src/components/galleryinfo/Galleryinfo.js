@@ -44,107 +44,138 @@ export default function Galleryinfo() {
             </div>
         </div>
 
-        {/* <div className="">
-            <div className="amenity ">
-                <div className="amenity-image">
-                    <img src="images/pool/hotelpool1land.jpg" alt="" className='a-image' />
-                </div>
-                
-                <div className="amenity-info">
-                    <div className="amenity-head"><h2>Our Amenities</h2></div>
-                    <div className="amenity-text"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore ratione dignissimos mollitia hic, cumque nulla dolor molestiae commodi quas id, magni iure alias vel quibusdam minus quos exercitationem nihil distinctio!</p></div>
-                    
-                    <div className="amenity-content">
+        <div className="">
+            <div className="image-container">
+                <img src="images/pool/hotelpool1land.jpg" alt="" className='amenity-img'/>
+                <div className="amenity-content">
+                    <div><h3>Our Amenities</h3></div>
+                    <div>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic, dolorum.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque quidem quod distinctio officiis laudantium, nostrum explicabo aliquid saepe expedita incidunt, fugiat alias consequatur, molestiae ea vel culpa earum sunt maxime.</div>
+                    <div className="amenity-icons">
+                        <div class="a-icon">
+                            <h6><i class="fa fa-microphone fa-beat-fade icon-control"></i>Driving & Smoking</h6>
+                        </div>
+                        
                         <div class="a-icon">                        
                             <h6><i class="fa-solid fa-water-ladder fa-beat icon-control"></i>Swimming pool</h6>
+                        </div>
+
+                        <div class="a-icon">
+                            <h6><i class="fa fa-spa fa-beat-fade icon-control"></i>Spa & Massage</h6>
+                        </div>
+
+                        <div class="a-icon">
+                            <h6><i class="fa fa-umbrella fa-flip icon-control"></i>Private Beach</h6>
                         </div>
 
                         <div class="a-icon">
                             <h6><i class="fa fa-dumbbell fa-spin icon-control"></i>Gym & Yogo</h6>                        
                         </div>
 
-                        <div class="a-icon">
-                            <h6><i class="fa fa-spa fa-beat-fade icon-control"></i>Spa & Massage</h6>
                         </div>
-                        
-                        <div class="a-icon">
-                            <h6><i class="fa fa-microphone fa-beat-fade icon-control"></i>Driving & Smoking</h6>
-                        </div>
-
-                        <div class="a-icon">
-                            <h6><i class="fa fa-umbrella fa-flip icon-control"></i>Private Beach</h6>
-                        </div>
-                    </div>
-                    
                 </div>
             </div>
-
         </div>
 
-        <div className="container">
-            <div className="row ">
-                <div className="cafeGuard">
-                    <div className="col-md-6">
-                        <div className="cafe-image">
-                            <img className='cafe-img' src="images/cafe/hotelcafe2port.jpg" alt="" />
-                        </div>
-                    </div>
+        
+                
 
-                    <div className="col-md-6">
-                        <div className="cafe-text">
-                            <div ><h2 className="cafe-head">Our Restaurant</h2></div>
-                            <div ><p className="cafe-info">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Lorem ipsum dolor sit amet.Nam accusantium molestiae voluptas?</p></div>
+                    {/* <div className="">
+                        <div className="col-md-6 col-sm-12">
+                            <div className="position-relative">
+                                <div className="amenity-info position-absolute">
+                                    <div className="amenity-head">Our Amenities</div>
 
-                            <div className="cafe-work">
-                                <div className="cafe-item cafe-open">
-                                    <div><h2 className="cafe-heading">Igbo Kitchen</h2></div>
-                                    <div><p className="cafe-content">                                        
-                                            <ReadMore>
-                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, quidem! Recusandae labore ipsam ex laborum?Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem asperiores nam facilis vitae blanditiis accusamus illum cumque error esse natus.    
-                                            </ReadMore> 
-                                        </p>
+                                    <div className="amenity-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore ratione dignissimos mollitia hic, cumque nulla dolor molestiae commodi quas id, magni iure alias vel quibusdam minus quos exercitationem nihil distinctio!</div>
+
+                                    <div className="amenity-content">
+                                        <div class="a-icon">                        
+                                            <h6><i class="fa-solid fa-water-ladder fa-beat icon-control"></i>Swimming pool</h6>
+                                        </div>
+
+                                        <div class="a-icon">
+                                            <h6><i class="fa fa-dumbbell fa-spin icon-control"></i>Gym & Yogo</h6>                        
+                                        </div>
+
+                                        <div class="a-icon">
+                                            <h6><i class="fa fa-spa fa-beat-fade icon-control"></i>Spa & Massage</h6>
+                                        </div>
+                                        
+                                        <div class="a-icon">
+                                            <h6><i class="fa fa-microphone fa-beat-fade icon-control"></i>Driving & Smoking</h6>
+                                        </div>
+
+                                        <div class="a-icon">
+                                            <h6><i class="fa fa-umbrella fa-flip icon-control"></i>Private Beach</h6>
+                                        </div>
                                     </div>
-                                </div>
-
-                                <div className="cafe-item cafe-close">
-                                    <div ><h2 className="cafe-heading">Italian Kitchen</h2></div>
-                                    <div><p className="cafe-content">                                        
-                                            <ReadMore>
-                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, quidem! Recusandae labore ipsam ex laborum?Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem asperiores nam facilis vitae blanditiis accusamus illum cumque error esse natus.    
-                                            </ReadMore>
-                                        </p>
-                                    </div>
-                                </div>
-
-                                <div className="cafe-item cafe-close">
-                                    <div ><h2 className="cafe-heading">Yoruba Kitchen</h2></div>
-                                    <div><p className="cafe-content">
-                                            <ReadMore>
-                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, quidem! Recusandae labore ipsam ex laborum?Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem asperiores nam facilis vitae blanditiis accusamus illum cumque error esse natus.    
-                                            </ReadMore>
-                                        </p>
-                                    </div>
-                                </div>
-
-                                <div className="cafe-item cafe-close">
-                                    <div ><h2 className="cafe-heading">Mexican Kitchen</h2></div>
-                                    <div><p className="cafe-content">
-                                            <ReadMore>
-                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, quidem! Recusandae labore ipsam ex laborum?Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem asperiores nam facilis vitae blanditiis accusamus illum cumque error esse natus.    
-                                            </ReadMore>
-                                        </p>
-                                    </div>
+                                    
                                 </div>
                             </div>
-                    
+                            
                         </div>
-                    </div>
+                    </div> */}
             
-                </div>
-            </div>
-        </div> */}
+        <div className="container">
+            <div className="row ">
+                <div className="col-md-6 order-md-1">
+                    <div className="cafe-text">
+                        <div ><h2 className="cafe-head">Our Restaurant</h2></div>
+                        <div ><p className="cafe-info">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Lorem ipsum dolor sit amet.Nam accusantium molestiae voluptas?</p></div>
 
-        {/* <Owlcarousel/>
+                        <div className="cafe-work">
+                            <div className="cafe-item cafe-open">
+                                <div><h2 className="cafe-heading">Igbo Kitchen</h2></div>
+                                <div><p className="cafe-content">                                        
+                                        <ReadMore>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, quidem! Recusandae labore ipsam ex laborum?Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem asperiores nam facilis vitae blanditiis accusamus illum cumque error esse natus.    
+                                        </ReadMore> 
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div className="cafe-item cafe-close">
+                                <div ><h2 className="cafe-heading">Italian Kitchen</h2></div>
+                                <div><p className="cafe-content">                                        
+                                        <ReadMore>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, quidem! Recusandae labore ipsam ex laborum?Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem asperiores nam facilis vitae blanditiis accusamus illum cumque error esse natus.    
+                                        </ReadMore>
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div className="cafe-item cafe-close">
+                                <div ><h2 className="cafe-heading">Yoruba Kitchen</h2></div>
+                                <div><p className="cafe-content">
+                                        <ReadMore>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, quidem! Recusandae labore ipsam ex laborum?Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem asperiores nam facilis vitae blanditiis accusamus illum cumque error esse natus.    
+                                        </ReadMore>
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div className="cafe-item cafe-close">
+                                <div ><h2 className="cafe-heading">Mexican Kitchen</h2></div>
+                                <div><p className="cafe-content">
+                                        <ReadMore>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, quidem! Recusandae labore ipsam ex laborum?Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem asperiores nam facilis vitae blanditiis accusamus illum cumque error esse natus.    
+                                        </ReadMore>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                
+                    </div>
+                </div>
+
+                <div className="col-md-6 order-md-2">
+                    <div className="cafe-image">
+                        <img className='cafe-img img-fluid' src="images/cafe/hotelcafe2port.jpg" alt="" />
+                    </div>
+                </div>                
+            </div>
+        </div>
+
+        <Owlcarousel/>
 
         <div className="">
             <div className="map-control">
@@ -153,7 +184,7 @@ export default function Galleryinfo() {
         </div>
         
         <Footer/>
-         */}
+        
     </div>
   )
 }

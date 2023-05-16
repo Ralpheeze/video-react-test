@@ -1,9 +1,8 @@
 /* -----Start of footer---- */
 .foot-control {
-    display: flex;
-    margin-top: 4rem;
+    background-color: #332f2f;
+    color: white;
 }
-
 .pay-image {
     display: grid;
     grid-template-columns: auto auto auto auto;
