@@ -1,23 +1,23 @@
 /* ----Start of grid ----- */
 .gridGuard {
-    margin-top: 9rem;
-    /* background-color:blue; */
+    margin-top: 7rem;
+    
 }
 
-.gridSupport {
+/* .gridSupport {
     background-color: rgba(44, 192, 165, 0.3);
-    padding: 3rem;
+    padding: 3rem 2rem;
 
-}
+} */
 
-.gridMain {
+/* .gridMain {
     padding: 0;
-}
+} */
 
 .grid-left-col {
     /* background-color: red; */
     display: flex;
-    /* padding: 0; */
+    padding: 0;
 }
 
 .grid-left-item1 {
@@ -45,7 +45,7 @@
 
 .grid-right-item2 {
     flex: 1;
-    margin-left: 1rem;
+    margin-left: 3rem;
 }
 
 .grid-right-input {
@@ -54,7 +54,7 @@
 
 .gridBtn {
     padding-top: 2rem;
-    margin-left: 1rem;
+    margin-left: 3rem;
 }
 
 .secondBtn {
@@ -62,5 +62,39 @@
     border-radius: 5px;
 }
 
+@media screen and (min-width: 360px) and (max-width: 370px) {
+    .gridGuard {
+        margin-top: 0;
+
+    }
+}
+
+@media screen and (min-width: 412px) and (max-width: 413px) {
+    .gridGuard {
+        margin-top: 13rem;
+
+    }
+}
+
+@media screen and (min-width: 414px) and (max-width: 450px) {
+    .gridGuard {
+        margin-top: 30rem;
+
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 819px) {
+    .gridGuard {
+            margin-top: 19rem;
+    
+        }
+}
+
+@media screen and (min-width: 820px)  and (max-width: 850px) {
+    .gridGuard {
+        margin-top: 29rem;
+
+    }
+}
 
 /* ----End of grid ----- */

@@ -23,7 +23,7 @@
 
 .slide-text h2 {
     font-size: 35px;
-    font-weight: 5 00;
+    font-weight: 500;
 }
 
 .slide-img {
@@ -31,7 +31,7 @@
     height: 350px;
 }
 
-.slide-button {
+/* .slide-button {
     position: absolute;
     background-color: green;
     margin: 0;
@@ -39,9 +39,9 @@
     top: -20%;
 
 
-}
+} */
 
-.slide-btn {
+/* .slide-btn {
     color: white;
     background-color: rgb(184, 169, 5);
     cursor: pointer;
@@ -51,15 +51,15 @@
     text-align: right;
     justify-content: end;
     align-items: end;
-}
+} */
 
 .slide-control {
     padding: 0;
     padding-top: 2rem;
 }
 
-.owl-carousel .owl-next,
-.owl-carousel .owl-prev {
+.owl-one .owl-next,
+.owl-one .owl-prev {
 
     height: 50px;
     position: absolute;
@@ -70,16 +70,16 @@
     transition: 0.5s;
 }
 
-.owl-carousel .owl-prev {
+.owl-one .owl-prev {
     left: 33px;
 }
 
-.owl-carousel .owl-next {
+.owl-one .owl-next {
     right: 33px;
 }
 
-.owl-carousel .owl-next:hover,
-.owl-carousel .owl-prev:hover {
+.owl-one .owl-next:hover,
+.owl-one .owl-prev:hover {
     background: #C1B086 !important;
 }
 

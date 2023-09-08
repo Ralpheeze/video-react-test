@@ -14,7 +14,7 @@ const ReadMore = ({ children }) => {
     <p className="text">
       {isReadMore ? text.slice(0, 0) : text}
       <span onClick={toggleReadMore} className="read-or-hide">
-        {isReadMore ? "...read content" : " show less"}
+        {isReadMore ? "...read more" : " show less"}
       </span>
     </p>
   );
@@ -29,7 +29,7 @@ export default function Galleryinfo() {
                 <div class="col-md-6">
                     <div class="gall-image">
                         <img src="images/bars/hotelbar4port.jpg" alt="" class="gall-img1" />
-                        {/* <img src="images/bars/hotelbar3land.jpg" alt="" class="gall-img2" /> */}
+                        <img src="images/bars/hotelbar3land.jpg" alt="" class="gall-img2" />
                     </div>
                 </div>
 
@@ -48,30 +48,34 @@ export default function Galleryinfo() {
             <div className="image-container">
                 <img src="images/pool/hotelpool1land.jpg" alt="" className='amenity-img'/>
                 <div className="amenity-content">
-                    <div><h3>Our Amenities</h3></div>
-                    <div>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic, dolorum.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque quidem quod distinctio officiis laudantium, nostrum explicabo aliquid saepe expedita incidunt, fugiat alias consequatur, molestiae ea vel culpa earum sunt maxime.</div>
+                    <div className="amenity-writing">
+                        <div><h3>Our Amenities</h3></div>
+                        <div>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic, dolorum.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque quidem quod distinctio officiis laudantium, nostrum explicabo aliquid saepe expedita incidunt, fugiat alias consequatur, molestiae ea vel culpa earum sunt maxime.</div>
+                    </div>
                     <div className="amenity-icons">
-                        <div class="a-icon">
-                            <h6><i class="fa fa-microphone fa-beat-fade icon-control"></i>Driving & Smoking</h6>
-                        </div>
-                        
-                        <div class="a-icon">                        
-                            <h6><i class="fa-solid fa-water-ladder fa-beat icon-control"></i>Swimming pool</h6>
+                        <div className="amenity-push">
+                            <div class="a-icon">
+                                <h6><i class="fa fa-microphone fa-beat-fade icon-control"></i>Driving & Smoking</h6>
+                            </div>
+                            
+                            <div class="a-icon">                        
+                                <h6><i class="fa-solid fa-water-ladder fa-beat icon-control"></i>Swimming pool</h6>
+                            </div>
+
+                            <div class="a-icon">
+                                <h6><i class="fa fa-spa fa-beat-fade icon-control"></i>Spa & Massage</h6>
+                            </div>
+
+                            <div class="a-icon">
+                                <h6><i class="fa fa-umbrella fa-flip icon-control"></i>Private Beach</h6>
+                            </div>
+
+                            <div class="a-icon">
+                                <h6><i class="fa fa-dumbbell fa-spin icon-control"></i>Gym & Yogo</h6>                        
+                            </div>
                         </div>
 
-                        <div class="a-icon">
-                            <h6><i class="fa fa-spa fa-beat-fade icon-control"></i>Spa & Massage</h6>
-                        </div>
-
-                        <div class="a-icon">
-                            <h6><i class="fa fa-umbrella fa-flip icon-control"></i>Private Beach</h6>
-                        </div>
-
-                        <div class="a-icon">
-                            <h6><i class="fa fa-dumbbell fa-spin icon-control"></i>Gym & Yogo</h6>                        
-                        </div>
-
-                        </div>
+                    </div>
                 </div>
             </div>
         </div>

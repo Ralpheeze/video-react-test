@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 export default function Navbar() {
   return (
     <div>
-        <nav class="navbar navbar-expand-lg my-nav-bar">
+        <nav class="navbar navbar-expand-lg  shadow-5-strong my-nav-bar">
             <a class="navbar-brand text-white navTitle" href="#"><i class="fa fa-umbrella fa-flip nav-icon"></i>Umbrella 
             <br /> Academy</a>
 
@@ -23,15 +23,10 @@ export default function Navbar() {
                         </Link>                        
                     </li>                    
                     <li class="nav-item nav-l">
-                        <div className="dropdown">
-                            <a className="btn btn-secondary dropdown-toggle nav-href tour-drop" href="#" role="button" data-toggle="dropdown" aria-expanded="false">Tour </a>
-
-                            <div className="dropdown-menu">
-                                <a className="dropdown-item" href="#">Bedrooms</a>
-                                <a className="dropdown-item" href="#">Lobby</a>
-                                <a className="dropdown-item" href="#">Bar</a>
-                            </div>
-                        </div>
+                        <Link to = "/tour">
+                            <a class="nav-link nav-href">Tour</a>
+                        </Link>
+                        
                     </li>
 
                     <li class="nav-item nav-l">

@@ -1,0 +1,233 @@
+/* ----Start of slide--- */
+.tour {
+
+}
+
+@media screen and (min-width: 1025px) {
+    .tour {
+        margin-top: 20rem;
+    }
+}
+
+@media screen and (min-width: 601px) and (max-width: 1024px) {
+    .tour {
+        margin-top: 17rem;
+    }
+}
+
+@media only screen and (min-width: 0) and (max-width: 600px) {
+    .tour {
+        margin-top: 15rem;
+    }
+}
+
+.owl-two .owl-next, 
+.owl-two .owl-prev {
+    color: rgb(255, 255, 255);
+    height: 50px;
+    position: absolute;
+    width: 50px;
+    top: 29%;
+    cursor: pointer;
+    background: var(--bg-color) !important;
+    transition: 0.5s;
+}
+
+.owl-two .owl-prev {
+    left: 10px;
+    
+}
+
+.owl-two .owl-next {
+    right: 11px;
+}
+
+.owl-two .owl-next:hover,
+.owl-two .owl-prev:hover {
+    background: var(--main-color) !important;
+}
+/* ----End of slide--- */
+
+
+
+
+
+.tour-title {
+    margin-top: 5rem;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;    
+}
+
+/* .tour-field {
+    font-size: 17px;
+    font-weight: bold;
+    margin-top: 5rem;
+    margin: 0;
+} */
+
+.tour-slide-control {
+    margin-top: 3rem;
+}
+
+
+.tour-control {
+    background-color: rgb(232, 229, 229);
+    margin: 0 -1px;
+    padding: 1rem ;
+    padding-bottom: 2rem;
+    height: 100%;
+    width: 100%;
+    border-radius: .5rem;
+    
+}
+
+.tour-image {
+    color: white;
+    position: relative; 
+}
+
+
+.tour-img {
+    border-top-left-radius: .5rem;
+    border-bottom-left-radius: .5rem;
+    border-top-right-radius: 1.1rem;
+    border-bottom-right-radius: .5rem;
+    height: 200px;
+    width: 100%;
+}
+
+.tour-price {
+    position: absolute;
+    background-color: var(--main-color);
+    padding: 10px 20px;
+    top: 0;
+    left: 0;
+    border-radius: .5rem;
+}
+
+.tour-ct {
+    color: white;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-radius: 50%;
+    background-color: var(--main-color);
+    padding: 10px;
+}
+
+.tour-ct:active {
+    color: rgb(96, 3, 3);
+}
+
+.tour-list-req {
+    display: flex;
+    justify-content: center;
+}
+
+.tour-room-req {
+    font-family: Baskerville;
+    text-decoration: none;
+    list-style: none;
+    font-size: 12px;
+}
+
+.tour-icon-req {
+    font-size: 12px;
+}
+
+.tour-icon2-req {
+    font-size: 12px;
+    /* text-transform: none; */
+    /* font-variant: small-caps; */
+}
+
+.tour-room-items {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    
+}
+
+.tour-room-li {
+    list-style: none;
+    text-decoration: none;
+}
+
+.tour-pen {
+    /* position: relative;
+    display: inline-block; */
+    text-decoration: none;
+    border: .2rem;
+}
+
+.tour-pen:hover {
+    cursor: help;
+    position: relative;
+}
+
+.tour-pen .tooltip-span-access {
+    display: none;
+}
+
+.tour-pen:hover .tooltip-span-access {
+    font-family: Baskerville;
+    font-weight: normal;
+    /* border: black 5rem ; */
+    padding: 5px 10px;
+    display: block;
+    /* z-index: 100; */
+    background: white;
+    left: -30px;
+    /* margin: 15px; */
+    width: 130px;
+    position: absolute;
+    top: -45px;
+    text-decoration: none;
+}
+
+
+
+
+
+/* .lowercase-text {
+    display: inline-block;
+    text-transform: lowercase;
+} */
+
+.tour-span-list {
+    content: "";
+    background-color: black;
+    top: 0;
+    left: 0;
+    height: 18px;
+    width: 0.5px;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
+
+
+/* .tour-content {
+    text-align: left;
+} */
+
+.tour-info {
+    text-align: center;
+}
+
+.tour-push {
+    display: flex;
+    justify-content: center;
+}
+
+.tour-button {
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.tour-btn {    
+    color: white;
+    background-color: var(--main-color);
+    padding: 10px 20px;
+}
+

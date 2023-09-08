@@ -14,7 +14,7 @@ export default function Owlcarousel() {
                 </div>
 
                 <div className="slide-control">
-                    <div class="owl-carousel owl-theme">
+                    <div class="owl-one owl-carousel first owl-theme">
                         <div class="item">
                             <img src="images/spa/hotelspa1land.jpeg" alt="" className='slide-img' />
                         </div>

@@ -4,7 +4,7 @@ import Secnavbar from '../../components/secnavbar/Secnavbar';
 export default function Gallery() {
   return (
     <div>
-        <Secnavbar/>
+        {/* <Secnavbar/> */}
         <Galleryinfo/>
     </div>
   )
