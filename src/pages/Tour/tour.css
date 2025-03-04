@@ -1,23 +1,23 @@
 /* ----Start of slide--- */
 .tour {
-
+    
 }
 
 @media screen and (min-width: 1025px) {
     .tour {
-        margin-top: 20rem;
+        /* margin-top: 20rem; */
     }
 }
 
 @media screen and (min-width: 601px) and (max-width: 1024px) {
     .tour {
-        margin-top: 17rem;
+        /* margin-top: 17rem; */
     }
 }
 
 @media only screen and (min-width: 0) and (max-width: 600px) {
     .tour {
-        margin-top: 15rem;
+        /* margin-top: 15rem; */
     }
 }
 
