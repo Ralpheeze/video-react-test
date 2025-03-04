@@ -4,10 +4,10 @@ export default function Grid() {
   return (
     <div>
         <div className="container">
-            <div className="row gridGuard">
+            <div className="row gridGuard ">
                 <div className="col"></div>
 
-                <div className="col-md-10">
+                <div className="col-md-10 gridDiv">
                     <div className="grid-support">
                         <div className="col-12 col-lg-12 grid-left-col ">
                             <div className="grid-left-item1">

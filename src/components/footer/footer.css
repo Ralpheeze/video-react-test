@@ -2,6 +2,8 @@
 .foot-control {
     background-color: #332f2f;
     color: white;
+    margin-top: 2rem;
+    
 }
 .pay-image {
     display: grid;

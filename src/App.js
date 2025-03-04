@@ -4,6 +4,7 @@ import Home from "./pages/Home/Home";
 import Gallery from './pages/Gallery/Gallery';
 import Booking from './pages/Booking/Booking';
 import Tour from './pages/Tour/Tour';
+import Grid from './components/grid/Grid';
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
                 <Route path="/book" element={<Booking/>} />                    
             </Routes> */}
             <Home/>
+            <Grid/>
             {/* <Checks/> */}
             <Tour/>
             {/* <Grid/> */}

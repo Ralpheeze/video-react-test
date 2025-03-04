@@ -74,7 +74,7 @@ function Tour() {
 
     return (
         <div>
-            <div className="container tour bg-success">
+            <div className="container tour">
                     <div><h2 className="tour-title">ROOMS & SUITES</h2></div>
 
                     <div className=" tour-slide-control ">
